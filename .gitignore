@@ -1,0 +1,46 @@
+# Ignorer les fichiers de l'environnement virtuel
+venv/
+env/
+
+# Ignorer les fichiers Python compilés
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorer les fichiers de base de données
+db.sqlite3
+db.sqlite3-journal
+
+# Ignorer les fichiers et dossiers de log
+*.log
+
+# Ignorer les fichiers de migrations
+migrations/
+
+# Ignorer les fichiers statiques et médias (générés par collectstatic ou téléchargés par les utilisateurs)
+static/
+staticfiles/
+media/
+
+# Ignorer les fichiers de configuration et secrets
+.env
+*.env
+
+# Ignorer les fichiers de cache et temporaires
+*.tmp
+*.bak
+*.swp
+
+# Ignorer les fichiers de l'éditeur
+.DS_Store
+.idea/
+.vscode/
+
+# Ignorer les fichiers de coverage (test)
+htmlcov/
+.coverage
+.coverage.*
+
+# Ignorer les fichiers de traductions compilés
+*.mo
+*.pot
